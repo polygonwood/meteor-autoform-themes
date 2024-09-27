@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use('ecmascript')
   api.use([
     'templating',
-    'aldeed:autoform@6.0.0 || 7.0.0 || 8.0.0-rc.3'
+    'aldeed:autoform@6.0.0 || 7.0.0 || 8.0.0-rc.5'
   ], 'client')
 
   api.mainModule('autoform-bootstrap4.js', 'client')
